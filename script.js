@@ -14,7 +14,7 @@ function initializeNavigation() {
     if (isLoggedIn) {
         // Logged in navigation
         navLinks.innerHTML = `
-            <a href="home.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="features.html">Features</a>
             <a href="robots.html">Robots</a>
@@ -26,7 +26,7 @@ function initializeNavigation() {
         
         if (mobileMenu) {
             mobileMenu.innerHTML = `
-                <a href="home.html">Home</a>
+                <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="features.html">Features</a>
                 <a href="robots.html">Robots</a>
@@ -39,7 +39,7 @@ function initializeNavigation() {
     } else {
         // Not logged in navigation - only home, contact, quiz
         navLinks.innerHTML = `
-            <a href="home.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="contact.html">Contact</a>
             <a href="quiz.html">Quiz</a>
             <a href="login.html" class="btn btn-outline" style="padding: 8px 16px;">Log In</a>
@@ -48,7 +48,7 @@ function initializeNavigation() {
         
         if (mobileMenu) {
             mobileMenu.innerHTML = `
-                <a href="home.html">Home</a>
+                <a href="index.html">Home</a>
                 <a href="contact.html">Contact</a>
                 <a href="quiz.html">Quiz</a>
                 <a href="login.html" class="btn btn-outline" style="margin: 10px 0; width: 100%;">Log In</a>
