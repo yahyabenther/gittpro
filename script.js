@@ -323,7 +323,7 @@ async function loadRobots() {
                                 ` : ''}
                             </div>
                             ${product.isAvailable && product.stock > 0 ? `
-                                <a href="robot-detail.html?id=${product._id}" class="btn btn-primary" style="padding: 8px 20px;">View Details</a>
+                                <a href="robot-about.html?id=${product._id}" class="btn btn-primary" style="padding: 8px 20px;">View Details</a>
                             ` : ''}
                         </div>
                     </div>
